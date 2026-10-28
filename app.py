@@ -27,25 +27,25 @@ TEAL = "#6FB7A8"    # muted teal, used sparingly
 
 BIO = {
     "Background": (
-        """My journey started in Cebu City before moving to Consolacion, where I grew up surrounded by my cousins. Family has always been a core anchor for me, whether it is the cousins I grew up alongside daily or those living further out in Lapu-Lapu and Carcar whom I do not get to see as often.
+        """My journey started in Cebu City before moving to Consolacion, where I grew up with my cousins. I spent my childhood with relatives who lived nearby and even though I don't talk to them much anymore, I still maintain relationships with them despite our distance.
 
-As a kid, my world revolved around offline creativity and gaming: spending hours on my Game Boy, building with LEGOs, and growing up without internet access until around fifth grade. Being offline early on made me appreciate tactile problem-solving, and logic games like chess naturally became a big part of my youth. While I never took chess strictly seriously, I loved the strategy enough to compete and reach the municipal level.
+During my childhood, all I did was building stuff from nothing with LEGOs and playing games for a long period of time on my Game Boy before I got internet access when I reached fifth grade. During this time, chess became my favorite game during my childhood years. I never treated chess as a serious game but I enjoyed how its strategic enough to play competitively until I played at the inter-school municipal chess competition.
 
-My entry into tech was fairly organic. Spending countless hours navigating my laptop made me realize how comfortable I felt working with computers. While computing can be a love-hate relationship at times, as anyone who debugs complex code knows, my affinity for analytical thinking made computer science a natural fit."""
+My entry into tech was fairly organic/common. Spending countless hours on my laptop made me realize how comfortable I felt working with it. While computing can be a love-hate relationship at times, as anyone who code knows, my love for thinking and maybe even problem solving made computer science a natural fit for me."""
     ),
     "Education": """
 - **Primary education:** Spent 1st to 4th grade at Punta Princesa Elementary School in Cebu City before transferring to Paraclete Learning Center in Consolacion for 5th and 6th grade.
-- **Secondary education:** Attended Jugan National High School (Grades 7 to 10) and Consolacion National High School for Senior High (Grades 11 to 12). In my last year, I joined the Student Council, which taught me real responsibility and leadership.
-- **My turning point:** I passed the Cebu City Science High School entrance exam but ultimately backed out of attending. It remains one of my biggest regrets, but it motivates me to seize every academic and technical opportunity in front of me now.
+- **Secondary education:** Went to Jugan National High School (Grades 7 to 10) and Consolacion National High School for Senior High (Grades 11 to 12). In my last year, I joined the Supreme Student Government, which taught me to be more responsible and how to lead others.
+- **Biggest academic regret:** I passed the Cebu City Science High School entrance exam but I decided to back out. I still think about it every now and then, thinking that I could've been better if I had attended there. Still, it remains as one of my top motivators to grab opportunities and to always step out of comfort.
 - **College:** Moved back to Cebu City for college, where I'm currently a 3rd-year BS Computer Science student at Cebu Institute of Technology – University (CIT-U).
 """,
     "Interests": """
-- **Games:** Right now I'm playing Tekken, Genshin Impact and osu!.
-- **LeetCode:** I solve problems when I can, usually at night.
-- **Working out:** Once in a while.
-- **Piano:** I learn songs on the piano, mostly anime arrangements.
-- **Cubing:** I'm not that fast yet, but I'm working on it.
-- **Music:** I'm obsessed with math rock at the moment: toe, tide/edit and covet.
+- **Games:** I play Tekken, Genshin Impact, and osu!. I main Lili on Tekken as my past self just assumed that she'd be broken judging by her fit. I got too many things to share for Genshin, but for osu!, I once was part of the country's top 100 players. I miss those days </3
+- **LeetCode:** I solve problems when I can, usually at night. Favorite problems include binary trees (very easy to solve), and I hate dynamic programming. Though I still try my best to solve those problems.
+- **Working out:** Once in every two days, or if I don't have classes the day after.
+- **Piano:** I learn songs on the piano, but mostly anime arrangements.
+- **Cubing:** I'm not that fast yet, but I'm working on it. Currently trying to improve my OLL to reduce my average solve time.
+- **Music:** I'm obsessed with math rock at the moment. My favorite artists for this genre are toe, tide/edit and Covet. If I had to pick a song, it would be shibuya, by Covet.
 """,
 }
 
@@ -53,7 +53,7 @@ MILESTONES = [
     ("May 2024", "Graduated high school"),
     ("Aug 2024", "Started college, taking Computer Science"),
     ("Nov 2025", "Led and built Swingify, my first ever project"),
-    ("Sep 2026", "Joined my first hackathon, the Knowles Hackathon"),
+    ("Sep 2026", "Joined my first hackathon (Knowles Hackathon)"),
     ("Now", "Still improving and learning"),
 ]
 
@@ -97,8 +97,8 @@ PROJECTS = [
         "title": "Orca",
         "role": "Project manager",
         "tools": ["PHP", "MySQL", "JavaScript"],
-        "outcome": "A proposed RFID payment system for the university canteen.",
-        "details": "Orca is a proposed RFID-based cashless payment architecture designed to streamline transactions at our university canteen. As project manager, I helped design a workflow where cashiers scan a student's existing RFID school ID card to fetch their record from the database and automatically append their food expenses to their tuition bill. I built the system using JavaScript for client interactions, PHP for server-side logic, and SQL for database operations.",
+        "outcome": "A proposed RFID payment system for CIT, built along with a friend.",
+        "details": "Orca is a proposed cashless payment system designed to process cashless transactions at CIT. Together with my friend, we came up with various ideas and built the system using JavaScript for interactions, PHP for logic, and SQL for database stuff.",
         "link": "https://github.com/kanagii/Orca",
     },
 ]
@@ -384,8 +384,8 @@ with lc_chart:
     st.altair_chart(chart)
 with lc_text:
     st.write(
-        f"{total} problems solved so far. I mostly practice in C++ and Python, "
-        "which is where I get the most repetition with data structures."
+        f"I currently have {total} problems solved so far. I mostly practice in C++ and Python, "
+        "which is where I practice and refresh my knowledge with data structures."
     )
     st.link_button("View my LeetCode profile", LEETCODE_PROFILE)
 
