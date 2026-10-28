@@ -31,7 +31,7 @@ BIO = {
 
 During my childhood, all I did was build stuff from nothing with LEGOs and playing games for a long period of time on my Game Boy before I got internet access when I reached fifth grade. During this time, chess became my favorite game during my childhood years. I never treated chess as a serious game but I enjoyed how its strategic enough to play competitively until I played at the inter-school municipal chess competition.
 
-My entry into tech was fairly organic/common. Spending countless hours on my laptop made me realize how comfortable I felt working with it. While computing can be a love-hate relationship at times, as anyone who code knows, my love for thinking and maybe even problem solving made computer science a natural fit for me."""
+My entry into tech was fairly organic/common. Spending a lot of time on my laptop made me realize how comfortable I felt working with it. While computing can be a love-hate relationship at times, as anyone who code knows, my love for thinking and maybe even problem solving made computer science a natural fit for me."""
     ),
     "Education": """
 - **Primary education:** Spent 1st to 4th grade at Punta Princesa Elementary School in Cebu City before transferring to Paraclete Learning Center in Consolacion for 5th and 6th grade.
